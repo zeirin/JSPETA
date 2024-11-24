@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap"); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Aldrich", sans-serif;
+}
+
+body {background-color: rgb(252, 244, 234);
+      background-size: cover;
+      background-position: center;
+    }
+ 
+.piclogo {
+width: 50px; 
+display: block;
+height: 50px;
+position: relative;
+display: block;
+    }
+.logo {font-size: 32px;
+color: white;
+       text-decoration: none;
+       font-weight: 600;
+       margin-right: 70%;
+   }
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    background-color: seagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 15px;
+    
+}
+
+/*button*/
+.bcart {background-color: rgb(60, 60, 250);
+border: none;
+ padding: 20px;
+ text-align: center;
+ text-decoration: none;
+ font-size: 16px;
+ width: 100%;
+ cursor: pointer;
+color: white;
+}
+h2 {color: blue;}
+
+/*keyb1*/
+
+.container, .container-3, .container-5 {
+    display: flex;
+    justify-content: center; 
+    padding: 20px;
+    gap: 50px;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.card {
+    background: #fff;
+    width: 300px;
+    height: 500px; /* Ensures all cards are the same height */
+    display: flex;
+    flex-direction: column; /* Stacks children vertically */
+    justify-content: space-between; /* Ensures spacing between content and footer */
+    padding: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-sizing: border-box; /* Includes padding in height */
+}
+
+.card-footer {
+    margin-top: auto; /* Pushes the footer to the bottom */
+    display: flex;
+    justify-content: center;
+    padding: 20px; /* Adjusts spacing inside the footer */
+}
+
+
+.card-image {
+    background-color: #bebebe;
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.container-2, .container-4, .container-6 {
+    display: flex;
+    justify-content: center; 
+    padding: 20px;
+    gap: 50px;
+    align-items: center;
+}
+
+.card {
+    background: #fff;
+    width: 300px; 
+    height: 500px;
+    margin: 10px;
+    padding: 12px;
+}
+
+.card-image {
+    background-color: #bebebe;
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+/*pictures*/
+.keyb-1 {
+    background-image: url(keyb1.jpg);
+}
+.keyb-2 {
+    background-image: url(keyb2.jpg);
+}
+.keyb-3 {
+    background-image: url(keyb3.jpg);
+}
+.keyb-4 {
+    background-image: url(keyb4.jpg);
+}
+.keyb-5 {
+    background-image: url(keyb5.jpg);
+}
+.keyb-6 {
+    background-image: url(keyb6.jpg);
+}
+
+/*mouse pics*/
+.mouse-1 {
+    background-image: url(mouse1.jpg);
+}
+.mouse-2 {
+    background-image: url(mouse2.jpg);
+    }
+.mouse-3 {
+    background-image: url(mouse3.jpg);
+}
+.mouse-4 {
+    background-image: url(mouse4.jpg);
+    }
+.mouse-5 {
+    background-image: url(mouse5.jpg);
+}
+.mouse-6 {
+    background-image: url(mouse6.jpg);
+    }
