@@ -94,8 +94,24 @@ padding: 20px;
 gap: 50px;
 align-items: center;
 margin-top: 10%;
+margin-right: 2.7%;
 }
 
+.ltext {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: baseline;
+    text-align: center; /* Center the text horizontally */
+    color: white; /* Adjust the color as desired */
+    background-color: seagreen;
+    padding: 20px;
+    width: 54.7%;
+    border-radius: 8px;
+    position: absolute;
+    top: 140px; /* Adjust the top margin as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    }
 .card {
 background: #fff;
 width: 300px;
