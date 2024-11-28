@@ -85,6 +85,43 @@ color: white;
 }
 h2 {color: blue;}
 
+/*slider*/
+/*slider*/
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .slider-container {
+    text-align: center;
+  }
+  
+  #slider-link {
+    display: block;
+    text-decoration: none;
+  }
+  .slider-container {
+    position: relative;
+    padding: 200px;
+    text-align: center; /* Center the button container */
+  }
+  
+  .button-container {
+    margin-top: 20px;
+    display: flex; /* Use flexbox to center the buttons */
+    justify-content: center;
+  }
+  
+  button {
+    background-color: rgb(10, 10, 32);
+    color: aliceblue;
+    font-size: 30px;
+    padding: 5px 35px;
+    border-radius: 10px;
+    margin: 0 20px;
+  }
+
 /*keyb1*/
 
 .container, .container-3, .container-5 {
@@ -94,10 +131,9 @@ padding: 20px;
 gap: 50px;
 align-items: center;
 margin-top: 10%;
-margin-right: 2.7%;
-}
 
-.ltext {
+}
+.headsettext {
     font-size: 24px;
     font-weight: bold;
     align-self: baseline;
@@ -108,10 +144,71 @@ margin-right: 2.7%;
     width: 54.7%;
     border-radius: 8px;
     position: absolute;
-    top: 140px; /* Adjust the top margin as needed */
+    top: 18%; /* Adjust the top margin as needed */
     left: 50%;
     transform: translateX(-50%);
-    }
+  }
+.keyboardtext {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: baseline;
+    text-align: center; /* Center the text horizontally */
+    color: white; /* Adjust the color as desired */
+    background-color: seagreen;
+    padding: 20px;
+    width: 54.7%;
+    border-radius: 8px;
+    position: absolute;
+    top: 164%; /* Adjust the top margin as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+.mousetext {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: baseline;
+    text-align: center; /* Center the text horizontally */
+    color: white; /* Adjust the color as desired */
+    background-color: seagreen;
+    padding: 20px;
+    width: 54.7%;
+    border-radius: 8px;
+    position: absolute;
+    top: 310%; /* Adjust the top margin as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .monitortext {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: baseline;
+    text-align: center; /* Center the text horizontally */
+    color: white; /* Adjust the color as desired */
+    background-color: seagreen;
+    padding: 20px;
+    width: 54.7%;
+    border-radius: 8px;
+    position: absolute;
+    top: 456%; /* Adjust the top margin as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .chairtext {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: baseline;
+    text-align: center; /* Center the text horizontally */
+    color: white; /* Adjust the color as desired */
+    background-color: seagreen;
+    padding: 20px;
+    width: 54.7%;
+    border-radius: 8px;
+    position: absolute;
+    top: 602%; /* Adjust the top margin as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
 .card {
 background: #fff;
 width: 300px;
