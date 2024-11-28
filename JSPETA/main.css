@@ -32,7 +32,7 @@ top: 0;
 left: 0;
 width: 100%;
 padding: 10px 100px;
-background-color: seagreen;
+background-color: #2e8b57;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -71,6 +71,92 @@ margin-bottom: 10px; /* For vertical layout */
 margin-bottom: 0;
 }
 }
+.navbar a:hover{
+  background: rgba(250, 250, 250, 0.2);
+  
+}
+
+.ltext {
+  font-size: 24px;
+  font-weight: bold;
+  align-self: baseline;
+  text-align: center;
+  color: white; 
+  background-color: seagreen;
+  padding: 20px;
+  width: 54.7%;
+  border-radius: 8px;
+  position: absolute;
+  top: 15%; /* Adjust the top margin as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  }
+  
+  .keyboardtext {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: baseline;
+    text-align: center; 
+    color: white; 
+    background-color: seagreen;
+    padding: 20px;
+    width: 54.7%;
+    border-radius: 8px;
+    position: absolute;
+    top: 183%; /* +168% to for the next category */
+    left: 50%;
+    transform: translateX(-50%);
+    }  
+
+    .mousetext {
+      font-size: 24px;
+      font-weight: bold;
+      align-self: baseline;
+      text-align: center; 
+      color: white; 
+      background-color: seagreen;
+      padding: 20px;
+      width: 54.7%;
+      border-radius: 8px;
+      position: absolute;
+      top: 351%; /* +168% to for the next category */
+      left: 50%;
+      transform: translateX(-50%);
+      }  
+
+      .monitortext {
+        font-size: 24px;
+        font-weight: bold;
+        align-self: baseline;
+        text-align: center; 
+        color: white; 
+        background-color: seagreen;
+        padding: 20px;
+        width: 54.7%;
+        border-radius: 8px;
+        position: absolute;
+        top: 519%; /* +168% to for the next category */
+        left: 50%;
+        transform: translateX(-50%);
+        }  
+
+        .chairtext {
+          font-size: 24px;
+          font-weight: bold;
+          align-self: baseline;
+          text-align: center; 
+          color: white; 
+          background-color: seagreen;
+          padding: 20px;
+          width: 54.7%;
+          border-radius: 8px;
+          position: absolute;
+          top: 687%; /* +168% to for the next category */
+          left: 50%;
+          transform: translateX(-50%);
+          }  
+  
+      
 
 /*button*/
 .bcart {background-color: rgb(60, 60, 250);
@@ -83,6 +169,11 @@ border: none;
  cursor: pointer;
 color: white;
 }
+.bcart:hover { 
+  opacity: 0.7  ;
+
+}
+
 h2 {color: blue;}
 
 /*keyb1*/
@@ -94,24 +185,8 @@ padding: 20px;
 gap: 50px;
 align-items: center;
 margin-top: 10%;
-margin-right: 2.7%;
 }
 
-.ltext {
-    font-size: 24px;
-    font-weight: bold;
-    align-self: baseline;
-    text-align: center; /* Center the text horizontally */
-    color: white; /* Adjust the color as desired */
-    background-color: seagreen;
-    padding: 20px;
-    width: 54.7%;
-    border-radius: 8px;
-    position: absolute;
-    top: 140px; /* Adjust the top margin as needed */
-    left: 50%;
-    transform: translateX(-50%);
-    }
 .card {
 background: #fff;
 width: 300px;
@@ -259,3 +334,77 @@ background-image: url(monitor6.jpg);
 .chair-6 {
     background-image: url(chair6.jpg);
 }
+
+/*add to cart and checkout stuff <3 */
+#carti {
+    margin-top: 50px;
+    padding: 10px;
+    width: 500px;
+  }
+  #carti-count {
+    font-weight: bold;
+  }
+  .product {
+    margin-bottom: 10px;
+  }
+  #carti-total {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  #checkout-buttun {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 75%;
+    padding: 15px;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 500px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  ul {
+    list-style-type: none;
+  }
+
+ 
