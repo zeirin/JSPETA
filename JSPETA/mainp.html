@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="icon" type="image/png" href="logo.png">
-    <link rel="stylesheet" href="main.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="main.js"></script>
-</head>
-<title>PCSTI</title>
-<body>
-    <header class="header">
-        <img class="piclogo" src="logo.png" href="mainp.html">
-        <a href="INDEX.html" class="logo">PCSTI</a>
-      <nav class="navbar">
-        <a href="INDEX.html">Home</a>
-        <a href="mainp.html">Products</a>
-        <a href="abousUs.html">About</a>
-      </nav>
-    </header>
+    <head>
+        <link rel="icon" type="image/png" href="logo.png">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="main.js"></script>
+
+    </head>
+    <title>PCSTI</title>
+    <body>
+        <header class="header">
+            <img class="piclogo" src="logo.png" href="mainp.html">
+            <a href="INDEX.html" class="logo">PCSTI</a>
+            <nav class="navbar">
+                <a href="INDEX.html">Home</a>
+                <div class="dropdown">
+                    <a href="mainp.html" class="dropbtn">Products</a>
+                    <div class="dropdown-content">
+                        <a href="#headsets">Headsets</a>
+                        <a href="#keyboards">Keyboards</a>
+                        <a href="#mouse">Mouse</a>
+                        <a href="#monitors">Monitors</a>
+                        <a href="#chairs">Chairs</a>
+                    </div>
+                </div>
+                <a href="abousUs.html">About</a>
+            </nav>
+        </header>
 
   <!-- headsets -->
     <!-- Container 1 -->
-   <h2 class="headsettext">HEADSETS</h2> <br> 
+   <h2 class="headsettext" id="headsets">HEADSETS</h2> <br> 
    <section class="container-3">   
       <div class="card">
           <div class="card-image headset-1"></div>
@@ -77,7 +87,7 @@
   </section>
 <!-- keyboards -->
 <!-- Container 1 -->
-<h2 class="keyboardtext">KEYBOARDS</h2> <br>
+<h2 class="keyboardtext" id="keyboards">KEYBOARDS</h2> <br>
 <section class="container">
   <div class="card">
       <div class="card-image keyb-1"></div>
@@ -134,7 +144,7 @@
 </section>
  <!-- mouse -->
  <!-- Container 1 -->
- <h2 class="mousetext">MOUSE</h2> <br>
+ <h2 class="mousetext" id="mouse">MOUSE</h2> <br>
  <section class="container-3">
   <div class="card">
       <div class="card-image mouse-1"></div>
@@ -191,7 +201,7 @@
 </section>
 <!-- monitor -->
  <!-- Container 1 -->
- <h2 class="monitortext">MONITORS</h2> <br>
+ <h2 class="monitortext" id="monitors">MONITORS</h2> <br>
  <section class="container-3">
   <div class="card">
       <div class="card-image monitor-1"></div>
@@ -249,7 +259,7 @@
 </section>
 <!-- chairs -->
 <!-- Container 1 -->
-<h2 class="chairtext">CHAIRS</h2> <br>
+<h2 class="chairtext" id="chairs">CHAIRS</h2> <br>
 <section class="container-3">
   <div class="card">
       <div class="card-image chair-1"></div>
