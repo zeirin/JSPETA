@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap"); 
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Aldrich", sans-serif;
+}
+
+body {background-color: rgb(252, 244, 234);
+  background-size: cover;
+  background-position: center;
+}
+ 
+.piclogo {
+width: 50px; 
+display: block;
+height: 50px;
+position: relative;
+display: block;
+}
+.logo {font-size: 32px;
+color: white;
+text-decoration: none;
+font-weight: 600;
+margin-right: 70%;
+}
+
+.header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 10px 100px;
+background-color: seagreen;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+
+/* Responsive Styles */
+@media (max-width: 767px) { /* Adjust breakpoint as needed */
+flex-direction: column;
+align-items: flex-start;
+padding: 20px;
+}
+}
+
+.navbar {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-top: 20px;
+
+@media (min-width: 768px) {
+flex-direction: row;
+align-items: center;
+margin-top: 0;
+}
+}
+
+.navbar a {
+font-size: 18px;
+color: white;
+font-weight: 600;
+text-decoration: none;
+margin-left: 15px;
+margin-bottom: 10px; /* For vertical layout */
+
+@media (min-width: 768px) {
+margin-bottom: 0;
+}
+}
+
+/*button*/
+.bcart {background-color: rgb(60, 60, 250);
+border: none;
+ padding: 20px;
+ text-align: center;
+ text-decoration: none;
+ font-size: 16px;
+ width: 100%;
+ cursor: pointer;
+color: white;
+}
+h2 {color: blue;}
+
+/*slider*/
+/*slider*/
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .slider-container {
+    text-align: center;
+  }
+  
+  #slider-link {
+    display: block;
+    text-decoration: none;
+  }
+  .slider-container {
+    position: relative;
+    padding: 200px;
+    text-align: center; /* Center the button container */
+  }
+  
+  .button-container {
+    margin-top: 20px;
+    display: flex; /* Use flexbox to center the buttons */
+    justify-content: center;
+  }
+  
+  button {
+    background-color: rgb(10, 10, 32);
+    color: aliceblue;
+    font-size: 30px;
+    padding: 5px 35px;
+    border-radius: 10px;
+    margin: 0 20px;
+  }
+
+/*keyb1*/
+
+.container, .container-3, .container-5 {
+display: flex;
+justify-content: center; 
+padding: 20px;
+gap: 50px;
+align-items: center;
+margin-top: 10%;
+
+}
+.headsettext {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: baseline;
+    text-align: center; /* Center the text horizontally */
+    color: white; /* Adjust the color as desired */
+    background-color: seagreen;
+    padding: 20px;
+    width: 54.7%;
+    border-radius: 8px;
+    position: absolute;
+    top: 18%; /* Adjust the top margin as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+.keyboardtext {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: baseline;
+    text-align: center; /* Center the text horizontally */
+    color: white; /* Adjust the color as desired */
+    background-color: seagreen;
+    padding: 20px;
+    width: 54.7%;
+    border-radius: 8px;
+    position: absolute;
+    top: 164%; /* Adjust the top margin as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+.mousetext {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: baseline;
+    text-align: center; /* Center the text horizontally */
+    color: white; /* Adjust the color as desired */
+    background-color: seagreen;
+    padding: 20px;
+    width: 54.7%;
+    border-radius: 8px;
+    position: absolute;
+    top: 310%; /* Adjust the top margin as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .monitortext {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: baseline;
+    text-align: center; /* Center the text horizontally */
+    color: white; /* Adjust the color as desired */
+    background-color: seagreen;
+    padding: 20px;
+    width: 54.7%;
+    border-radius: 8px;
+    position: absolute;
+    top: 456%; /* Adjust the top margin as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .chairtext {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: baseline;
+    text-align: center; /* Center the text horizontally */
+    color: white; /* Adjust the color as desired */
+    background-color: seagreen;
+    padding: 20px;
+    width: 54.7%;
+    border-radius: 8px;
+    position: absolute;
+    top: 602%; /* Adjust the top margin as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+.card {
+background: #fff;
+width: 300px;
+height: 500px; /* Ensures all cards are the same height */
+display: flex;
+flex-direction: column; /* Stacks children vertically */
+justify-content: space-between; /* Ensures spacing between content and footer */
+padding: 12px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+box-sizing: border-box; /* Includes padding in height */
+}
+
+.card-footer {
+margin-top: auto; /* Pushes the footer to the bottom */
+display: flex;
+justify-content: center;
+padding: 20px; /* Adjusts spacing inside the footer */
+}
+
+
+.card-image {
+background-color: #bebebe;
+height: 250px;
+margin-bottom: 15px;
+background-size: cover;
+}
+
+.container-2, .container-4, .container-6 {
+display: flex;
+justify-content: center; 
+padding: 20px;
+gap: 50px;
+align-items: center;
+}
+
+.card {
+background: #fff;
+width: 300px; 
+height: 500px;
+margin: 10px;
+padding: 12px;
+}
+
+.card-image {
+background-color: #bebebe;
+height: 250px;
+margin-bottom: 15px;
+background-size: cover;
+}
+
+/*pictures*/
+.keyb-1 {
+background-image: url(keyb1.jpg);
+}
+.keyb-2 {
+background-image: url(keyb2.jpg);
+}
+.keyb-3 {
+background-image: url(keyb3.jpg);
+}
+.keyb-4 {
+background-image: url(keyb4.jpg);
+}
+.keyb-5 {
+background-image: url(keyb5.jpg);
+}
+.keyb-6 {
+background-image: url(keyb6.jpg);
+}
+
+/*mouse pics*/
+.mouse-1 {
+background-image: url(mouse1.jpg);
+}
+.mouse-2 {
+background-image: url(mouse2.jpg);
+}
+.mouse-3 {
+background-image: url(mouse3.jpg);
+}
+.mouse-4 {
+background-image: url(mouse4.jpg);
+}
+.mouse-5 {
+background-image: url(mouse5.jpg);
+}
+.mouse-6 {
+background-image: url(mouse6.jpg);
+}
+/*headset*/
+.headset-1 {
+background-image: url(headset1.jpg);
+}
+.headset-2 {
+background-image: url(headset2.jpg);
+}
+.headset-3 {
+background-image: url(headset3.jpg);
+}
+.headset-4 {
+background-image: url(headset4.jpg);
+}
+.headset-5 {
+background-image: url(headset5.jpg);
+}
+.headset-6 {
+background-image: url(headset6.jpg);
+}
+/*monitor*/
+.monitor-1 {
+background-image: url(monitor1.jpg);
+}
+.monitor-2 {
+background-image: url(monitor2.jpg);
+}
+.monitor-3 {
+background-image: url(monitor3.jpg);
+}
+.monitor-4 {
+background-image: url(monitor4.jpg);
+  }
+.monitor-5 {
+background-image: url(monitor5.jpg);
+ }
+.monitor-6 {
+background-image: url(monitor6.jpg);
+}
+/*chair*/
+.chair-1 {
+    background-image: url(chair1.jpg);
+}
+.chair-2 {
+    background-image: url(chair2.jpg);
+}
+.chair-3 {
+    background-image: url(chair3.jpg);
+}
+.chair-4 {
+    background-image: url(chair4.jpg);
+}
+.chair-5 {
+    background-image: url(chair5.jpg);
+}
+.chair-6 {
+    background-image: url(chair6.jpg);
+}
