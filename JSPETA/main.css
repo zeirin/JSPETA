@@ -92,7 +92,6 @@ color: white;
 h2 {color: blue;}
 
 /*slider*/
-/*slider*/
 img {
     width: 100%;
     height: auto;
@@ -391,7 +390,7 @@ background-image: url(monitor6.jpg);
   }
 
   .open-button {
-    background-color: #555;
+    background-color: #333333;
     color: white;
     padding: 16px 20px;
     border: none;
